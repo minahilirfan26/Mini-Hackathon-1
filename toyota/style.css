@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Open+Sans:ital,wght@1,300;1,400&display=swap');
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.navigation{
+    margin: 5px;
+    margin-left: 250px;
+    font-size: 12px;
+}
+.search-bar{
+    font-size: 17px;
+}
+.search-bar:hover{
+    color: red;
+}
+.btn{
+    border-radius: 2px;
+    font-weight: bold;
+    font-size: 10px;
+    border: 2px solid black;
+    padding: 0%;
+}
+.btn:hover{
+    background-color: transparent;
+    border: 2px solid red;
+    color: red;
+}
+.home-text{
+    color: white;
+    
+    font-weight: bold;
+    font-size: 25px;
+    padding-top: 25%;
+    background-color: #292727;
+    z-index: -0.1;
+    opacity: 60%;
+}
+.home-text2{
+    color: white;
+    
+    font-weight: bold;
+    font-size: 25px;
+    padding-top: 30%;
+    background-color: #292727;
+    z-index: -0.1;
+    opacity: 60%;
+}
+.home-text3{
+    color: white;
+    
+    font-weight: bold;
+    font-size: 25px;
+    padding-top: 20%;
+    background-color: #292727;
+    z-index: -0.1;
+    opacity: 60%;
+  
+}
+    .home-text:hover,.home-text2:hover,.home-text3:hover{
+        opacity: 85%;
+        transition: opacity 0.3s ease-in-out;
+    }
+.picks{
+    background-color: red;
+    color: white;
+    font-size: 12px;
+    padding: 3px;
+    font-family: Arial,Verdana,Helvetica,sans-serif;
+}
+.picks_time{
+    padding: 0px;
+    margin: 0%;
+    font-size: 10px;
+   font-family: Arial,Verdana,Helvetica,sans-serif;
+}
+.picks-title-inner{
+    font-family: Arial,Verdana,Helvetica,sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    color: white;
+   
+}
+
+.carousel-inner{
+    height: 100%;
+    width: 100%;
+
+}
+.cards-slider{
+    border: none;
+    
+}
+
+.body-text{
+    position: absolute;
+    right: 10%;
+}
+.body-text h5:hover,p:hover{
+color: red;
+}
+.body-text h5{
+    font-size: 26px;
+    font-weight: bold;
+    font-family: Arial,Verdana,Helvetica,sans-serif;
+}
+.anchr{
+    text-decoration: none;
+    padding-left: 300px;
+}
+
+.container-box{
+    position: relative;
+}
+.left-side{
+    border-left: 2px solid gray;
+}
+.right-side{
+    border-left: 2px solid gray;
+    padding: 0px;
+    margin: 0px;
+    width: 50%;
+    position: absolute;
+    left: 50%;
+}
+.grey{
+    background-color: #ebe7e7;
+}
+.Toyota{
+    height: 50%;
+    width: 100%;
+}
+.content-text{
+    font-family: 'Fira Sans', sans-serif;
+}
+
+#notice{
+    background-color: #eceaea;
+}
+.notic{
+    height: 280px;
+}
+.txt h1{
+    text-align: center;
+    font-weight: bolder;
+    font-family: sans-serif;
+    font-size: 40px;
+}
+.txt{
+    padding-top: 50px;
+}
+.txt p{
+    font-size: 11px;
+    padding-top: 3px;
+    padding-left: 150px;
+    color: #6b6767;
+    font-family: sans-serif;
+}
+.txt span a{
+    font-size: 11px;
+    color: black;
+    text-decoration: none;
+    font-family: sans-serif;
+    padding-left: 20px;
+}
+.txt span a:hover{
+    color: red;
+ text-decoration: underline;   
+}
+
+#footer-1{
+    background-color: #424242;
+ 
+
+}
+.footer-1{
+    display: flex;
+    padding: 3%;
+    
+}
+.footer-1 ul{
+    list-style: none;
+    color: #ebe7e7;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.footer-1 .Second-box{
+    margin-left: 20%;
+    border-left: 2px solid white;
+    
+}
+.footer-1 .third-box{
+    margin-left: 20%;
+    border-left: 2px solid white;
+}
+.third-box .iconss{
+    display: flex;
+    margin-left: 20%;
+}
+.third-box .iconss li{
+    list-style: none;
+    padding: 5px;
+}
+.third-box .iconss li i{
+    border-radius: 20%;
+}
+.insta{
+color: rgb(240, 41, 117);
+}
+
+#footer-2{
+    background-color: #212121;
+    line-height: 1.6;
+    
+}
+.footer-2{
+    display: flex;
+    font-size: 13px;
+    color: #ebe7e7;
+    padding: 20px;
+    
+}
+.cookie{
+    margin-left: 35%;
+}
